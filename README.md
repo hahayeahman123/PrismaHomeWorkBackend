@@ -21,11 +21,11 @@ This is a backend project built using **Prisma ORM**, created by me for a **scho
 - JWT for authentication
 - Bcrypt for password hashing
 
-## Main Endpoints
+## User Endpoints
 
 - `POST /api/v1/auth/register` - Register a new user
 - `POST /api/v1/auth/login` - Log in and receive a JWT token with role
-Admin only:
+## Admin Endpoints
 - `POST /api/v1/admin/add-role` - adds a role to a user
 - `POST api/v1/admin/remove-role` - removes a role from a user
 - `POsT api/v1/admin/block-user` - blocks a user from getting their token, therefore not being able to do anything
