@@ -12,7 +12,7 @@ This is a backend project built using **Prisma ORM**, created by me for a **scho
   - Block/unblock users
   - Remove users
 
-## 🛠Technologies Used
+## Technologies Used
 
 - Node.js
 - Express.js
